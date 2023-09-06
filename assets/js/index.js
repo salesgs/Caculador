@@ -1,6 +1,6 @@
-import { eventButton } from"./modules/EventButton.js";
-import calculate from "./modules/calculate.js";
-import clear from "./modules/Clear.js";
+import { eventButton } from"./EventButton.js";
+import calculate from "./Calculate.js";
+import clear from "./Clear.js";
 const main = document.querySelector('main');
 const root = document.querySelector(':root');
 const resultInput = document.getElementById('result');
