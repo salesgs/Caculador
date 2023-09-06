@@ -1,4 +1,4 @@
-export default function calculate(){
+ function calculate(){
   const resultInput = document.getElementById('result');
   const input = document.getElementById('input');
   resultInput.value='ERROR';
@@ -9,3 +9,4 @@ export default function calculate(){
   resultInput.value=result;
   resultInput.classList.remove('error');
 }
+export default calculate
